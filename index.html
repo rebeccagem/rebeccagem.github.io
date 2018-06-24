@@ -14,9 +14,9 @@
 </head>
 
 <body>
-
-    <nav class="navbar navbar-expand-lg navbar-light bg-light d-sm-none">
-        <a class="navbar-brand" href="#">Rebecca Gemeinhardt</a>
+    <!-- NAV THAT ONLY SHOWS ON XS -->
+    <nav class="navbar navbar-expand-lg d-sm-none navbar-light bg-light">
+        <a class="navbar-brand droplink" href="#">Rebecca Gemeinhardt</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
             aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -24,45 +24,45 @@
         <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav">
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Projects</a>
+                    <a class="nav-link droplink" href="#">Projects</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">About</a>
+                    <a class="nav-link droplink" href="#">About</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link disabled" href="#">Contact</a>
+                    <a class="nav-link droplink" href="#">Contact</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link disabled" href="#">GitHub</a>
+                    <a class="nav-link droplink" href="#">GitHub</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link disabled" href="#">LinkedIn</a>
+                    <a class="nav-link droplink" href="#">LinkedIn</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link disabled" href="#">Home</a>
+                    <a class="nav-link droplink" href="#">Home</a>
                 </li>
             </ul>
         </div>
     </nav>
-
-    <nav class="navbar sticky-top justify-content-center navbar-expand-lg">
+    <!-- NAV THAT SHOWS ON LARGER THAN XS -->
+    <nav class="navbar justify-content-center navbar-expand-lg port">
         <div class="row justify-content-center" id="navrow">
             <!-- LINK BUTTONS (LEFT) -->
             <div class="col-3 col-sm-3 col-md-5 d-none d-sm-block">
                 <ul class="nav justify-content-end">
-                    <li class="nav-item">
+                    <li class="nav-item topBottomSpace">
                         <a class="nav-link active btn-circle text shadow" href="#">PROJECTS</a>
                     </li>
-                    <li class="nav-item">
+                    <li class="nav-item sideSpace">
                         <a class="nav-link btn-circle text shadow" href="#">ABOUT</a>
                     </li>
-                    <li class="nav-item">
+                    <li class="nav-item topBottomSpace">
                         <a class="nav-link btn-circle text shadow" href="#">CONTACT</a>
                     </li>
                 </ul>
             </div>
             <!-- CENTER IMAGE -->
-            <div class="col-8 col-sm-6 col-md-2 ">
+            <div class="col-8 col-sm-6 col-md-2 topBuffer">
                 <div id="img-container">
                     <div class="ratio img-responsive img-circle shadow" style="background-image: url(./assets/img/RG-Pic.jpg);">
                     </div>
@@ -71,17 +71,17 @@
             <!-- CONNECT BUTTONS (RIGHT)-->
             <div class="col-3 col-sm-3 col-md-5 d-none d-sm-block">
                 <ul class="nav justify-content-start">
-                    <li class="nav-item ">
+                    <li class="nav-item topBottomSpace">
                         <a class="nav-link active btn-circle shadow" href="#">
                             <i class="fab fa-github-alt"></i>
                         </a>
                     </li>
-                    <li class="nav-item">
+                    <li class="nav-item sideSpace ">
                         <a class="nav-link btn-circle shadow" href="#">
                             <i class="fab fa-linkedin-in"></i>
                         </a>
                     </li>
-                    <li class="nav-item">
+                    <li class="nav-item topBottomSpace">
                         <a class="nav-link btn-circle shadow" href="#">
                             <i class="fas fa-home"></i>
                         </a>
@@ -90,7 +90,65 @@
             </div>
         </div>
     </nav>
-    <h1>PLEASE CURVE THIS TEXT</h1>
+
+    <!-- ABOUT ME SECTION -->
+    <div class="container-fluid">
+        <div class="container">
+            <div class="row justify-content-md-center">
+                <div class="col-12 col-sm-12 col-md-10 topBuffer">
+                    <h1 id="hello" >HELLO, </h1>
+                    <p id="bioText">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                        ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+                        voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                        proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                    <h1 class="text-right becca">- Becca &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</h1>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- PORTFOLIO SECTION -->
+    <div class="container-fluid bg-black text-wht shadowDark port justify-content-center">
+        <div class="container">
+            <div class="row justify-content-md-center">
+                <div class="col-12 col-sm-12 col-md-10 topBuffer">
+                    <h1 class="portText">PORTFOLIO</h1>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ABOUT ME SECTION -->
+    <div class="container-fluid">
+        <div class="container">
+            <div class="row justify-content-md-center">
+                <div class="col-12 col-sm-12 col-md-10 topBuffer">
+                    <h1>HELLO, </h1>
+                    <p id="bioText">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                        ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+                        voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                        proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                    <p id="bioText">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                        ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+                        voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                        proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                    <h1 class="text-right becca">- Becca &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</h1>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- PORTFOLIO SECTION -->
+    <div class="container-fluid bg-black text-wht shadowDark port justify-content-center">
+        <div class="container">
+            <div class="row justify-content-md-center">
+                <div class="col-12 col-sm-12 col-md-10 topBuffer">
+                    <h1 class="portText">CONTACT ME</h1>
+                </div>
+            </div>
+        </div>
+    </div>
+
     <!-- jquery before bootstrap! -->
     <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
