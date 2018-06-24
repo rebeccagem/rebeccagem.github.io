@@ -237,3 +237,39 @@ padding-bottom:15px;
 .contact{
     margin-top:25px;
 }
+
+.middle{
+    align-self: center;
+}
+
+.contactLink{
+    background: transparent;
+    background-color: transparent;
+    color: #000;
+    font-size: 38px;
+    font-family: 'Gill Sans MT Condensed', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.contactLink:hover{
+    background: transparent;
+    background-color: transparent;
+    color:#ffffff;
+
+}
+.contactSection{
+    padding: 30px 20px;
+
+}
+
+.connectButtonsFooter {
+    padding: 0px 10px 50px 10px;
+}
+
+.phoneNumber {
+    padding-bottom:20px;
+}
+
+.nameTitle {
+    font-family: 'Gill Sans MT Condensed', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 50px;
+}
