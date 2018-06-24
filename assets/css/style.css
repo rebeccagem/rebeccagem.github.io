@@ -166,6 +166,10 @@ a:hover {
     .navbar-expand-lg {
         background: rgb(255, 255, 255); /* transparent pink */
     }
+    .card-deck {
+        column-count: 2;
+
+  }
 }
 
   /* Anything Smaller than Large  */
@@ -180,4 +184,45 @@ a:hover {
     #hello {
         font-size: 35px;
     }
+    .card-deck {
+        column-count: 1;
+
+  }
+}
+
+.buttonHolder {
+display: flex;
+justify-content: space-around;
+padding-bottom:15px;
+}
+
+.btn {
+    background: rgb(255,170,170);
+    background: linear-gradient(32deg, rgba(255,170,170,1) 0%, rgba(255,232,213,1) 100%);
+    color: #000000;
+}
+.btn:hover {
+    color: #000000;
+    background: rgb(255,255,255);
+    background: linear-gradient(90deg, rgba(255,255,255,1) 50%, rgba(255,255,255,1) 71%);
+}
+
+.badge {
+    background-color: #4c4c4c;
+    color:#bbbbbb;
+    padding:5px;
+    margin:5px;
+}
+
+.badgeHolder {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.card {
+    margin-top:25px;
+}
+
+.contact{
+    margin-top:25px;
 }
