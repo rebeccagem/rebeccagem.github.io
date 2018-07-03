@@ -30,7 +30,7 @@ body {
 .btn-circle.text {
     font-size: 22px;
     padding: 19px 0px 5px 0px;
-    font-family: 'Gill Sans MT Condensed','Medula One', cursive;
+    font-family: 'Gill Sans MT Condensed', 'Pragati Narrow','Medula One', cursive;
     letter-spacing: .75px;
 }
 
@@ -94,7 +94,7 @@ a:hover {
   /* END IMAGE CIRCLE */
 
   h1{
-    font-family: 'Gill Sans MT Condensed', cursive;
+    font-family: 'Gill Sans MT Condensed', 'Pragati Narrow', cursive;
     letter-spacing: .75px;
   }
 
@@ -200,7 +200,7 @@ padding-bottom:15px;
     background: rgb(255,170,170);
     background: linear-gradient(32deg, rgba(255,170,170,1) 0%, rgba(255,232,213,1) 100%);
     color: #000000;
-    font-family: 'Gill Sans MT Condensed', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Gill Sans MT Condensed', 'Pragati Narrow', Calibri, 'Trebuchet MS', sans-serif;
     text-transform: uppercase;
     font-size: 22px;
 }
@@ -247,7 +247,7 @@ padding-bottom:15px;
     background-color: transparent;
     color: #000;
     font-size: 38px;
-    font-family: 'Gill Sans MT Condensed', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Gill Sans MT Condensed', 'Pragati Narrow' ,Calibri, 'Trebuchet MS', sans-serif;
 }
 
 .contactLink:hover{
@@ -270,6 +270,6 @@ padding-bottom:15px;
 }
 
 .nameTitle {
-    font-family: 'Gill Sans MT Condensed', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Gill Sans MT Condensed', 'Pragati Narrow', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 50px;
 }
